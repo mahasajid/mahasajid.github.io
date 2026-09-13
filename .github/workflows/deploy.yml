@@ -71,7 +71,8 @@ jobs:
           echo "c1271e3aec8401531ff1b7871e53919cf496106b31ae0646734df0b545939401  assets/pdf/cv_chunks/00.txt" | sha256sum --check --strict
           echo "3147c99afa4e98fd1be3a093e41b98d69480cf921b51dc04d94202704b52fcc2  assets/pdf/cv_chunks/01.txt" | sha256sum --check --strict
           echo "90aa097998297cf3b9ec6df977994217317349f2c9737c73dfdafc905557865a  assets/pdf/cv_chunks/02a.txt" | sha256sum --check --strict
-          echo "76463bcba91ae601be0b9ff05a6d1916f8b369fd9f76cae3d37b9379ebff4040  assets/pdf/cv_chunks/02b.txt" | sha256sum --check --strict
+          echo "21f97183450d7ec57371b46a0f1bebcde9099a4761e79400a7e966be3683239e  assets/pdf/cv_chunks/02b1.txt" | sha256sum --check --strict
+          echo "9d6a6c751643f2b6311b9c05992e15842e34a149bd537f3d226f5828d8620d0c  assets/pdf/cv_chunks/02b2.txt" | sha256sum --check --strict
           echo "676bef9cab1e43c693a94bc6867236701904853d6797f393d7ab03042591b734  assets/pdf/cv_chunks/03.txt" | sha256sum --check --strict
           echo "e2449f512727e9469080eeb22a0aa8fcab6e61a6cca2c23cf9cd28fb0357a109  assets/pdf/cv_chunks/04.txt" | sha256sum --check --strict
           echo "6645748680030843b2a1ad33317ce7e29ef290c4015ed0d088848ff4ba6e1f33  assets/pdf/cv_chunks/05.txt" | sha256sum --check --strict
@@ -82,7 +83,8 @@ jobs:
             cat assets/pdf/cv_chunks/00.txt
             cat assets/pdf/cv_chunks/01.txt
             cat assets/pdf/cv_chunks/02a.txt
-            cat assets/pdf/cv_chunks/02b.txt
+            cat assets/pdf/cv_chunks/02b1.txt
+            cat assets/pdf/cv_chunks/02b2.txt
             cat assets/pdf/cv_chunks/03.txt
             cat assets/pdf/cv_chunks/04.txt
             cat assets/pdf/cv_chunks/05.txt
