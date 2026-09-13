@@ -1,27 +1,35 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Candidate in Computer Science at Virginia Tech
-
-profile:
-  align: right
-  image: maha_profile.jpg
-  image_circular: false
-  more_info: >
-    <p>Department of Computer Science</p>
-    <p>Virginia Tech</p>
-    <p>Blacksburg, VA</p>
-
-selected_papers: true
+profile: false
+selected_papers: false
 social: true
-
 announcements:
   enabled: false
-
 latest_posts:
   enabled: false
 ---
+
+<style>
+.maha-profile-wrap {
+  float: right;
+  width: 260px;
+  max-width: 40%;
+  margin: 0 0 1rem 2rem;
+}
+@media (max-width: 576px) {
+  .maha-profile-wrap {
+    float: none;
+    width: 72%;
+    max-width: 260px;
+    margin: 0 auto 1.5rem auto;
+  }
+}
+</style>
+
+<img src="{{ '/assets/img/maha_profile.jpg' | relative_url }}" alt="Maha Sajid" class="maha-profile-wrap img-fluid rounded z-depth-1">
 
 I am a PhD candidate in Computer Science at **Virginia Tech**, advised by **Brendan David-John** and **Bo Ji**. My research sits at the intersection of **Human-Computer Interaction, collaborative mixed reality, security & privacy, and team cognition**.
 
@@ -29,9 +37,11 @@ I study how people build shared awareness, coordinate with collaborators, and re
 
 My current work investigates how communication modalities shape **collective situational awareness in asymmetric MR**. I also study how users recognize and respond to **security attacks in remote collaborative MR**, and how **multimodal privacy indicators** can better support XR bystanders.
 
-**Research interests:** Human-Computer Interaction · Extended Reality · Collaborative MR/XR · Security & Privacy · Team Cognition · Situation Awareness
+**Research Interests:** Human-Computer Interaction · Extended Reality · Collaborative MR/XR · Security & Privacy · Team Cognition · Situation Awareness
 
-You can also read my [research blog](https://wordpress.cs.vt.edu/msresearch/). The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu); my personal email is [mahasajid1@gmail.com](mailto:mahasajid1@gmail.com).
+The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu); my personal email is [mahasajid1@gmail.com](mailto:mahasajid1@gmail.com).
+
+<div style="clear: both;"></div>
 
 ## News
 
@@ -42,3 +52,9 @@ You can also read my [research blog](https://wordpress.cs.vt.edu/msresearch/). T
 | **2025** | Published first-author work on security attacks in remote collaborative mixed reality at **IEEE VR 2025**; the work was featured in *Computerworld*. |
 | **2025** | Co-authored work on multimodal privacy indicators for situationally impaired XR bystanders at **IEEE ISMAR Adjunct 2025**. |
 | **2023** | Joined Virginia Tech as a PhD student and Graduate Research Assistant. |
+
+## Selected Publications
+
+<div class="publications">
+{% bibliography %}
+</div>
