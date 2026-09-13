@@ -62,13 +62,21 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Reconstruct CV PDF 📄
         run: |
+          echo "c1271e3aec8401531ff1b7871e53919cf496106b31ae0646734df0b545939401  assets/pdf/cv_chunks/00.txt" | sha256sum --check --strict
+          echo "3147c99afa4e98fd1be3a093e41b98d69480cf921b51dc04d94202704b52fcc2  assets/pdf/cv_chunks/01.txt" | sha256sum --check --strict
+          test "$(head -c 12000 assets/pdf/cv_chunks/02.txt | sha256sum | cut -d' ' -f1)" = "0fe36f576abbbdd6e1cce8295b6a28ffef512d0fcc3f54fef88ec1240295aa71"
+          echo "676bef9cab1e43c693a94bc6867236701904853d6797f393d7ab03042591b734  assets/pdf/cv_chunks/03.txt" | sha256sum --check --strict
+          echo "e2449f512727e9469080eeb22a0aa8fcab6e61a6cca2c23cf9cd28fb0357a109  assets/pdf/cv_chunks/04.txt" | sha256sum --check --strict
+          echo "6645748680030843b2a1ad33317ce7e29ef290c4015ed0d088848ff4ba6e1f33  assets/pdf/cv_chunks/05.txt" | sha256sum --check --strict
+          echo "3e4a299cfbfee789b079b5c765336dd9127139a914916fd23c4deaef02f63395  assets/pdf/cv_chunks/06a.txt" | sha256sum --check --strict
+          echo "52e5df4407e0a05536909fdbbc187b7db29cbde9e555eeb2ccc5c1b1ef573865  assets/pdf/cv_chunks/06b.txt" | sha256sum --check --strict
+          echo "3d0d41e057be78872cb6759cf37eb55be2f34ab3986007e9d84cc74501d1d7f1  assets/pdf/cv_chunks/07.txt" | sha256sum --check --strict
           {
             cat assets/pdf/cv_chunks/00.txt
             cat assets/pdf/cv_chunks/01.txt
@@ -90,7 +98,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-          cache: "pip" # caching pip dependencies
+          cache: "pip"
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
