@@ -71,8 +71,12 @@ jobs:
           echo "c1271e3aec8401531ff1b7871e53919cf496106b31ae0646734df0b545939401  assets/pdf/cv_chunks/00.txt" | sha256sum --check --strict
           echo "3147c99afa4e98fd1be3a093e41b98d69480cf921b51dc04d94202704b52fcc2  assets/pdf/cv_chunks/01.txt" | sha256sum --check --strict
           echo "90aa097998297cf3b9ec6df977994217317349f2c9737c73dfdafc905557865a  assets/pdf/cv_chunks/02a.txt" | sha256sum --check --strict
-          echo "21f97183450d7ec57371b46a0f1bebcde9099a4761e79400a7e966be3683239e  assets/pdf/cv_chunks/02b1.txt" | sha256sum --check --strict
-          echo "9d6a6c751643f2b6311b9c05992e15842e34a149bd537f3d226f5828d8620d0c  assets/pdf/cv_chunks/02b2.txt" | sha256sum --check --strict
+          echo "d501ef16d98bc26bbe7b381aa26c96be42cb5139212fae117bb7c20fe80289f5  assets/pdf/cv_chunks/02b1_0.txt" | sha256sum --check --strict
+          echo "e222a0b274c298490dbfa3e93cc543d0d9c325a61a3da0b75ee5f9b85be5d7f1  assets/pdf/cv_chunks/02b1_1.txt" | sha256sum --check --strict
+          echo "a6b14bcefe32fd4eaaab1e34488b0b6970cd73ce8d11957ebb9659473e43e5bd  assets/pdf/cv_chunks/02b1_2.txt" | sha256sum --check --strict
+          echo "4a45b6cf95890cb7ecb4a3674ce15c2c0cb8840afa56d3e2e8a835f3488b5453  assets/pdf/cv_chunks/02b2_0.txt" | sha256sum --check --strict
+          echo "b892583b8b8e718c911846b648e8813481d8b90ea3d2952f0d6db108488ec27a  assets/pdf/cv_chunks/02b2_1.txt" | sha256sum --check --strict
+          echo "1ce46a5dc0e3d4cb3a25e27718f4507d2053149cfa1bf3f56545d49a8838365c  assets/pdf/cv_chunks/02b2_2.txt" | sha256sum --check --strict
           echo "676bef9cab1e43c693a94bc6867236701904853d6797f393d7ab03042591b734  assets/pdf/cv_chunks/03.txt" | sha256sum --check --strict
           echo "e2449f512727e9469080eeb22a0aa8fcab6e61a6cca2c23cf9cd28fb0357a109  assets/pdf/cv_chunks/04.txt" | sha256sum --check --strict
           echo "6645748680030843b2a1ad33317ce7e29ef290c4015ed0d088848ff4ba6e1f33  assets/pdf/cv_chunks/05.txt" | sha256sum --check --strict
@@ -83,8 +87,12 @@ jobs:
             cat assets/pdf/cv_chunks/00.txt
             cat assets/pdf/cv_chunks/01.txt
             cat assets/pdf/cv_chunks/02a.txt
-            cat assets/pdf/cv_chunks/02b1.txt
-            cat assets/pdf/cv_chunks/02b2.txt
+            cat assets/pdf/cv_chunks/02b1_0.txt
+            cat assets/pdf/cv_chunks/02b1_1.txt
+            cat assets/pdf/cv_chunks/02b1_2.txt
+            cat assets/pdf/cv_chunks/02b2_0.txt
+            cat assets/pdf/cv_chunks/02b2_1.txt
+            cat assets/pdf/cv_chunks/02b2_2.txt
             cat assets/pdf/cv_chunks/03.txt
             cat assets/pdf/cv_chunks/04.txt
             cat assets/pdf/cv_chunks/05.txt
