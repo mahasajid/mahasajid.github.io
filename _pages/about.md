@@ -4,13 +4,7 @@ title: about
 permalink: /
 subtitle: PhD Candidate in Computer Science at Virginia Tech
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>Department of Computer Science</p>
-    <p>Virginia Tech</p>
+profile: false
 
 selected_papers: true
 social: true
