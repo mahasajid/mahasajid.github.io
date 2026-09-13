@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Cross-Verification of Revenue Using Remote Sensing
-description: Satellite-imagery segmentation and a GIS-integrated web platform for identifying construction activity and supporting tax-record verification in Peshawar, Pakistan.
+title: Improving Tax Collection Through Satellite Imagery
+description: Remote-sensing and GIS decision support for identifying construction activity and supporting property-tax verification in Peshawar, Pakistan.
 importance: 1
 category: research
 related_publications: false
 ---
 
-This undergraduate research project explored how remote sensing could support the verification of property-tax records in the Peshawar region of Pakistan.
+**September 2021 – June 2022**
 
-Working with the **Technology for Pakistan Initiative**, I helped develop a machine-learning pipeline to distinguish constructed from unconstructed land using satellite imagery from multiple years. The work included preparing and preprocessing imagery for model training and integrating the resulting detections into a web-based system for temporal and spatial analysis.
+This project explored how remote sensing could support verification of property-tax records in the Peshawar region of Pakistan. Working with the **Technology for Pakistan Initiative**, I helped train a machine-learning model to classify constructed and unconstructed land using satellite imagery from multiple years.
 
-The resulting pipeline achieved **92% accuracy in identifying constructed areas** and supported a GIS-integrated platform for examining construction activity over time. The broader research contributed to an **International Growth Centre (IGC) report** on improving property-tax administration through technology and data.
+I prepared and preprocessed imagery for model training and helped integrate the resulting detections into a web-based GIS system for temporal and spatial comparison of construction patterns across union councils. The platform also supported plot-level analysis of constructed properties to help identify potential gaps in tax records.
 
-**Areas:** Computer Vision · Machine Learning · Remote Sensing · GIS · Web Development
+The resulting pipeline achieved **92% accuracy in identifying constructed areas**. The broader research contributed to the International Growth Centre report *Cross Verification of Revenue Using Remote Sensing Data*.
+
+**Areas:** Computer Vision · Machine Learning · Remote Sensing · Human-Computer Interaction · GIS · Web Development
+
+[LinkedIn Project Profile](https://www.linkedin.com/in/maha-sajid-303844103)

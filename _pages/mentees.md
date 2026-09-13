@@ -7,17 +7,18 @@ nav: true
 nav_order: 3
 ---
 
-I enjoy mentoring undergraduate researchers and supporting them as they develop research questions, build systems, and gain experience with the research process. I have mentored **two Virginia Tech undergraduate researchers** and am a **CRA UR2PhD Certified Graduate Mentor**.
+I enjoy mentoring undergraduate researchers and supporting them as they develop research questions, build systems, and gain experience with the research process. I am a [**CRA UR2PhD Certified Graduate Mentor**](https://verified.sertifier.com/en/verify/81443835666110/).
 
-## Current & Past Mentees
+## Current Mentees
 
-Mentee profiles will be listed here with the time we worked together and, where appropriate, a short description of their project.
+### [Kathleen Rawls](https://www.linkedin.com/in/kathleen-rawls/)
 
-<!--
-Suggested entry format:
+**Virginia Tech · Undergraduate Research Mentee**  
+Kathleen is an undergraduate student in the Virginia Tech College of Engineering pursuing computer engineering. I work with her as part of my undergraduate research mentoring at Virginia Tech.
 
-### Mentee Name
-*Virginia Tech · 2026–Present*
+### [Amulya Chinnala](https://www.linkedin.com/in/amulya-chinnala/)
 
-Short description of the project, the mentee's role, and the area of research.
--->
+**Virginia Tech · Undergraduate Research Mentee**  
+Amulya is an undergraduate computer science student at Virginia Tech. I work with her as part of my undergraduate research mentoring at Virginia Tech.
+
+Project-specific descriptions and mentoring timelines will be added as the work develops.

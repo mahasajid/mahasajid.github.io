@@ -1,14 +1,18 @@
 ---
 layout: page
-title: University Healthcare Management System
-description: A multi-role web application for appointment booking, medical record management, and administrative verification of healthcare records.
+title: Health@LUMS
+description: A multi-role healthcare web application for appointments, medical records, medical history, and administrative verification.
 importance: 1
-category: systems
+category: human-centered-systems
 related_publications: false
 ---
 
-Designed and developed a web application to support access to in-house healthcare services at **LUMS**. The system was designed around three primary user groups—administrators, healthcare workers, and university members—with role-specific functionality tailored to their needs.
+**September 2021 – December 2021**
 
-Core workflows included **appointment booking, medical record keeping, access to medical history, and verification of medical reports for administrative purposes**. The project emphasized user-centered workflow design as well as the implementation of distinct permissions and interfaces for each user group.
+Designed and developed a web application to help members of **LUMS** access in-house healthcare services and manage their records. The system supported three primary user groups—administrators, healthcare workers, and university members—with role-specific functionality tailored to their needs.
 
-**Areas:** Human-Computer Interaction · UX/UI Design · Web Development · Database Systems
+Core workflows included **appointment booking, medical record keeping, access to medical history, and verification of medical reports for administrative purposes**. The project emphasized accessible UX/UI design as well as the implementation of distinct permissions and workflows for each user group.
+
+**Areas:** UX/UI Design · Human-Computer Interaction · Web Development · Database Systems
+
+[LinkedIn Project Profile](https://www.linkedin.com/in/maha-sajid-303844103)

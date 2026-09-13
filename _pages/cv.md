@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 5
+nav_order: 6
 description: Curriculum vitae — research, education, publications, teaching, industry experience, and service.
 ---
 

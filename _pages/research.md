@@ -7,9 +7,9 @@ nav: true
 nav_order: 1
 ---
 
-My research asks how people build awareness, coordinate with others, and make security- and privacy-relevant decisions in immersive collaborative systems. I approach these questions through mixed-methods HCI research, controlled studies, interactive system design, and qualitative and quantitative analysis.
+My work spans collaborative XR research, human-centered computing, applied machine learning, and interactive systems. The page is organized to show that progression: current PhD research first, followed by earlier research projects, human-centered applications, and systems/computer-vision work.
 
-## Current Research
+## PhD Research
 
 ### Collective Situational Awareness in Asymmetric MR
 
@@ -33,14 +33,34 @@ By triangulating first-person recordings, behavioral observations, questionnaire
 
 I collaborated on an iterative mixed-methods study of privacy indicators for situationally impaired XR bystanders. Four focus groups with 8 participants informed five visual and multimodal concepts, followed by a 7-participant evaluation of usability and contextual usefulness. The results showed limitations of visual-only cues under situational impairment and stronger preferences for multimodal indicators in privacy-sensitive scenarios. This work was published at **IEEE ISMAR Adjunct 2025**.
 
-## Selected Earlier Projects
-
-Before my PhD work, I built research and software systems spanning computer vision, remote sensing, GIS, healthcare, and full-stack development. A few selected projects are highlighted below.
+## Research Projects
 
 <div class="projects">
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign research_projects = site.projects | where: "category", "research" | sort: "importance" %}
 <div class="row row-cols-1 row-cols-md-2">
-{% for project in sorted_projects %}
+{% for project in research_projects %}
+  {% include projects.liquid %}
+{% endfor %}
+</div>
+</div>
+
+## Human-Centered Applications
+
+<div class="projects">
+{% assign hci_projects = site.projects | where: "category", "human-centered-systems" | sort: "importance" %}
+<div class="row row-cols-1 row-cols-md-2">
+{% for project in hci_projects %}
+  {% include projects.liquid %}
+{% endfor %}
+</div>
+</div>
+
+## Systems & Computer Vision
+
+<div class="projects">
+{% assign systems_projects = site.projects | where: "category", "systems" | sort: "importance" %}
+<div class="row row-cols-1 row-cols-md-2">
+{% for project in systems_projects %}
   {% include projects.liquid %}
 {% endfor %}
 </div>
