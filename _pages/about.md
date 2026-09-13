@@ -12,7 +12,7 @@ profile:
     <p>Department of Computer Science</p>
     <p>Virginia Tech</p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
