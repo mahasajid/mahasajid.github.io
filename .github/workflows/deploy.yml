@@ -67,6 +67,20 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Reconstruct CV PDF 📄
+        run: |
+          {
+            cat assets/pdf/cv_chunks/00.txt
+            cat assets/pdf/cv_chunks/01.txt
+            head -c 12000 assets/pdf/cv_chunks/02.txt
+            cat assets/pdf/cv_chunks/03.txt
+            cat assets/pdf/cv_chunks/04.txt
+            cat assets/pdf/cv_chunks/05.txt
+            cat assets/pdf/cv_chunks/06a.txt
+            cat assets/pdf/cv_chunks/06b.txt
+            cat assets/pdf/cv_chunks/07.txt
+          } | base64 --decode > assets/pdf/Maha_Sajid_CV.pdf
+          test "$(head -c 4 assets/pdf/Maha_Sajid_CV.pdf)" = "%PDF"
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
