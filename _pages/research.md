@@ -1,34 +1,47 @@
 ---
 layout: page
-title: research
+title: Research & Projects
 permalink: /research/
+description: Research and selected projects in collaborative XR, HCI, security, privacy, team cognition, and applied computing.
 nav: true
-nav_order: 2
-description: Research on human-centered security, privacy, and collaboration in extended reality.
+nav_order: 1
 ---
 
 My research asks how people build awareness, coordinate with others, and make security- and privacy-relevant decisions in immersive collaborative systems. I approach these questions through mixed-methods HCI research, controlled studies, interactive system design, and qualitative and quantitative analysis.
 
-## Human-centered security in collaborative XR
+## Current research
 
-**How do security attacks affect users' awareness, communication, and behavior in shared immersive environments?**
+### Collective situational awareness in asymmetric MR
 
-I study how collaborators recognize and respond to attacks while working together remotely in mixed reality. This work examines not only whether users detect attacks, but how those attacks influence communication, trust, task performance, and the shared understanding that collaborators rely on to coordinate effectively.
+**How does communication modality shape what collaborators notice, understand, and anticipate together?**
 
-My work in this area includes iterative protocol development through pilot studies, followed by controlled dyadic user studies that combine behavioral measures with qualitative analysis of participant experiences.
+I led an end-to-end investigation of collective situational awareness in asymmetric mixed reality, designing and implementing a networked HoloLens 2 experiment and refining the protocol through a 12-participant pilot before conducting an IRB-approved, counterbalanced study with **48 participants across 24 dyads**.
 
-## Collective situation awareness in XR
+The work extends SAGAT-based collective situation-awareness assessment with team-level measures of **information coverage** and **accurate alignment**, alongside correctness and response-alignment measures. I also built multimodal analysis pipelines integrating gaze, speech, SAGAT, workload, and performance data. The study found that **Gaze+Voice improved task performance and shared awareness**, while **Gaze-only produced the strongest spatial gaze convergence**, suggesting that performance, co-attention, and collective awareness capture distinct aspects of collaboration. The manuscript is under review at **IEEE VR 2027**.
 
-**How does the way collaborators communicate affect their ability to build and maintain a shared understanding of an immersive environment?**
+### Security attacks in remote collaborative MR
 
-A second thread of my research investigates collective situation awareness in collaborative XR. I am particularly interested in how communication modalities shape what collaborators notice, understand, and anticipate together, and how interface design can support more effective coordination in complex shared environments.
+**How do collaborators recognize and respond to attacks in shared immersive environments?**
 
-This line of work broadens my research from individual attack recognition toward the cognitive and communicative foundations of collaboration in immersive systems.
+I designed and executed a mixed-methods security study on remote collaborative MR, iteratively refining the task and attack conditions across two pilot studies before conducting an IRB-approved main study with **20 participants across 10 dyads**. I engineered four real-time attacks in a networked Unity/HoloLens 2 platform, including a novel click-redirection mechanism and MR-specific occlusion attacks.
 
-## Privacy and bystanders in XR
+By triangulating first-person recordings, behavioral observations, questionnaires, and interviews, the study uncovered gaps between users' perceived and actual security behavior. The resulting design recommendations focus on immersive security indicators, interaction transparency, and user training. This work resulted in my **first-author IEEE VR 2025 paper** and was featured in *Computerworld*.
 
-**How should XR systems communicate privacy-relevant information to people who may be unable to rely on visual cues alone?**
+### Privacy indicators for XR bystanders
 
-I also study privacy communication for XR bystanders, including the design and evaluation of multimodal privacy indicators for people experiencing situational impairment. This work examines where visual-only cues fall short and how multimodal feedback can better support understanding in privacy-sensitive contexts.
+**How should XR systems communicate privacy-relevant information when visual cues alone are insufficient?**
 
-Across these projects, my broader goal is to develop evidence-based design guidance for immersive systems that are safer, more privacy-aware, and more effective for real-world collaboration.
+I collaborated on an iterative mixed-methods study of privacy indicators for situationally impaired XR bystanders. Four focus groups with 8 participants informed five visual and multimodal concepts, followed by a 7-participant evaluation of usability and contextual usefulness. The results showed limitations of visual-only cues under situational impairment and stronger preferences for multimodal indicators in privacy-sensitive scenarios. This work was published at **IEEE ISMAR Adjunct 2025**.
+
+## Selected earlier projects
+
+Before my PhD work, I built research and software systems spanning computer vision, remote sensing, GIS, healthcare, and full-stack development. A few selected projects are highlighted below.
+
+<div class="projects">
+{% assign sorted_projects = site.projects | sort: "importance" %}
+<div class="row row-cols-1 row-cols-md-2">
+{% for project in sorted_projects %}
+  {% include projects.liquid %}
+{% endfor %}
+</div>
+</div>
