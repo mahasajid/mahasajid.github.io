@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 nav: true
-nav_order: 2
+nav_order: 5
 description: Curriculum vitae — research, education, publications, teaching, industry experience, and service.
 ---
 
@@ -15,7 +15,7 @@ Research focus: Human-Computer Interaction, Collaborative Mixed Reality, Team Co
 **Lahore University of Management Sciences (LUMS)** — BS in Computer Science, 2022  
 Minor in Psychology · Graduated with Distinction
 
-## Research experience
+## Research Experience
 
 ### Graduate Research Assistant — Virginia Tech
 *Aug 2023 – Present · Advisors: Brendan David-John and Bo Ji*
@@ -31,13 +31,13 @@ Minor in Psychology · Graduated with Distinction
 
 Developed a satellite-imagery analysis pipeline that achieved **92% accuracy in identifying constructed areas**, together with a GIS-integrated decision-support platform for detecting land-use change and supporting property-tax verification. The work contributed to the International Growth Centre technical report *Cross Verification of Revenue Using Remote Sensing Data*.
 
-## Selected publications
+## Selected Publications
 
 <div class="publications">
 {% bibliography %}
 </div>
 
-## Industry experience
+## Industry Experience
 
 **Full-Stack Software Engineer — Senarios** · Feb 2023 – Jul 2023  
 Delivered a cross-platform mobile data-sharing product from design through release and worked with clients to translate Web3 data-integrity requirements into implementation plans.
@@ -53,7 +53,7 @@ CS 1054: Intro to Programming in Java · CS/ECE 5590: System and Software Securi
 **Undergraduate Teaching Assistant — LUMS** · Aug 2022 – May 2023  
 CS 360: Software Engineering · CS 5310: Computer Vision Fundamentals
 
-## Honors, leadership & service
+## Honors, Leadership & Service
 
 - **John Lee Pratt Fellowship**, 2026–2027
 - **Commonwealth Cyber Initiative Cyber Innovation Scholar Awards**, 2024–2026
@@ -63,12 +63,12 @@ CS 360: Software Engineering · CS 5310: Computer Vision Fundamentals
 - Graduate Council Officer, Virginia Tech CS, 2026–2027
 - General Secretary, LUMS Data Science Society, 2021–2022 · Dean's Honor List, 2019–2022
 
-## Research & technical skills
+## Research & Technical Skills
 
-**Research methods:** experimental design, human-subjects research, mixed-methods research, controlled and repeated-measures studies, pilot studies, focus groups, semi-structured interviews, behavioral observation, usability evaluation
+**Research Methods:** experimental design, human-subjects research, mixed-methods research, controlled and repeated-measures studies, pilot studies, focus groups, semi-structured interviews, behavioral observation, usability evaluation
 
 **Analysis:** ANOVA, Friedman and Wilcoxon tests, bootstrapping, effect sizes, clustering, eye tracking, gaze-object mapping, joint attention, gaze entropy, speech analysis, multimodal data synchronization, thematic analysis, qualitative coding
 
-**XR & prototyping:** Unity, C#, OpenXR, Microsoft HoloLens 2, Galaxy XR, Android XR, MRTK, XR Interaction Toolkit, networked multi-user XR, Mirror, Unity Netcode, Photon Fusion, Figma
+**XR & Prototyping:** Unity, C#, OpenXR, Microsoft HoloLens 2, Galaxy XR, Android XR, MRTK, XR Interaction Toolkit, networked multi-user XR, Mirror, Unity Netcode, Photon Fusion, Figma
 
-**Programming & data:** Python, C#, C++, JavaScript, Node.js, React, Git, Pandas, NumPy, SQL, Ruby
+**Programming & Data:** Python, C#, C++, JavaScript, Node.js, React, Git, Pandas, NumPy, SQL, Ruby
