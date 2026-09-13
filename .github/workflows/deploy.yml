@@ -68,21 +68,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Reconstruct CV PDF 📄
         run: |
-          echo "c1271e3aec8401531ff1b7871e53919cf496106b31ae0646734df0b545939401  assets/pdf/cv_chunks/00.txt" | sha256sum --check --strict
-          echo "3147c99afa4e98fd1be3a093e41b98d69480cf921b51dc04d94202704b52fcc2  assets/pdf/cv_chunks/01.txt" | sha256sum --check --strict
-          echo "90aa097998297cf3b9ec6df977994217317349f2c9737c73dfdafc905557865a  assets/pdf/cv_chunks/02a.txt" | sha256sum --check --strict
-          echo "d501ef16d98bc26bbe7b381aa26c96be42cb5139212fae117bb7c20fe80289f5  assets/pdf/cv_chunks/02b1_0.txt" | sha256sum --check --strict
-          echo "e222a0b274c298490dbfa3e93cc543d0d9c325a61a3da0b75ee5f9b85be5d7f1  assets/pdf/cv_chunks/02b1_1.txt" | sha256sum --check --strict
-          echo "a6b14bcefe32fd4eaaab1e34488b0b6970cd73ce8d11957ebb9659473e43e5bd  assets/pdf/cv_chunks/02b1_2.txt" | sha256sum --check --strict
-          echo "4a45b6cf95890cb7ecb4a3674ce15c2c0cb8840afa56d3e2e8a835f3488b5453  assets/pdf/cv_chunks/02b2_0.txt" | sha256sum --check --strict
-          echo "b892583b8b8e718c911846b648e8813481d8b90ea3d2952f0d6db108488ec27a  assets/pdf/cv_chunks/02b2_1.txt" | sha256sum --check --strict
-          echo "1ce46a5dc0e3d4cb3a25e27718f4507d2053149cfa1bf3f56545d49a8838365c  assets/pdf/cv_chunks/02b2_2.txt" | sha256sum --check --strict
-          echo "676bef9cab1e43c693a94bc6867236701904853d6797f393d7ab03042591b734  assets/pdf/cv_chunks/03.txt" | sha256sum --check --strict
-          echo "e2449f512727e9469080eeb22a0aa8fcab6e61a6cca2c23cf9cd28fb0357a109  assets/pdf/cv_chunks/04.txt" | sha256sum --check --strict
-          echo "6645748680030843b2a1ad33317ce7e29ef290c4015ed0d088848ff4ba6e1f33  assets/pdf/cv_chunks/05.txt" | sha256sum --check --strict
-          echo "3e4a299cfbfee789b079b5c765336dd9127139a914916fd23c4deaef02f63395  assets/pdf/cv_chunks/06a.txt" | sha256sum --check --strict
-          echo "52e5df4407e0a05536909fdbbc187b7db29cbde9e555eeb2ccc5c1b1ef573865  assets/pdf/cv_chunks/06b.txt" | sha256sum --check --strict
-          echo "3d0d41e057be78872cb6759cf37eb55be2f34ab3986007e9d84cc74501d1d7f1  assets/pdf/cv_chunks/07.txt" | sha256sum --check --strict
           {
             cat assets/pdf/cv_chunks/00.txt
             cat assets/pdf/cv_chunks/01.txt
@@ -95,11 +80,22 @@ jobs:
             cat assets/pdf/cv_chunks/02b2_2.txt
             cat assets/pdf/cv_chunks/03.txt
             cat assets/pdf/cv_chunks/04.txt
-            cat assets/pdf/cv_chunks/05.txt
+            cat assets/pdf/cv_chunks/05_00.txt
+            cat assets/pdf/cv_chunks/05_01.txt
+            cat assets/pdf/cv_chunks/05_02.txt
+            cat assets/pdf/cv_chunks/05_03.txt
+            cat assets/pdf/cv_chunks/05_04.txt
+            cat assets/pdf/cv_chunks/05_05.txt
+            cat assets/pdf/cv_chunks/05_06.txt
+            cat assets/pdf/cv_chunks/05_07.txt
+            cat assets/pdf/cv_chunks/05_08.txt
+            cat assets/pdf/cv_chunks/05_09.txt
+            cat assets/pdf/cv_chunks/05_10.txt
+            cat assets/pdf/cv_chunks/05_11.txt
             cat assets/pdf/cv_chunks/06a.txt
             cat assets/pdf/cv_chunks/06b.txt
             cat assets/pdf/cv_chunks/07.txt
-          } | base64 --decode > assets/pdf/Maha_Sajid_CV.pdf
+          } | tr -d '\r\n' | base64 --decode > assets/pdf/Maha_Sajid_CV.pdf
           echo "705a8ca83f64ff31bdef0f518332c233834f90b5a847b0eaa50122027fe0601c  assets/pdf/Maha_Sajid_CV.pdf" | sha256sum --check --strict
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
