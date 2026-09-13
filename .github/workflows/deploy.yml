@@ -80,7 +80,7 @@ jobs:
             cat assets/pdf/cv_chunks/06b.txt
             cat assets/pdf/cv_chunks/07.txt
           } | base64 --decode > assets/pdf/Maha_Sajid_CV.pdf
-          test "$(head -c 4 assets/pdf/Maha_Sajid_CV.pdf)" = "%PDF"
+          echo "705a8ca83f64ff31bdef0f518332c233834f90b5a847b0eaa50122027fe0601c  assets/pdf/Maha_Sajid_CV.pdf" | sha256sum --check --strict
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
