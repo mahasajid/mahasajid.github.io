@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 description: Research notes and updates by Maha Sajid.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 I write research notes and updates on my Virginia Tech research blog.
