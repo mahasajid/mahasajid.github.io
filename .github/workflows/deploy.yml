@@ -69,34 +69,15 @@ jobs:
       - name: Reconstruct CV PDF 📄
         run: |
           {
-            cat assets/pdf/cv_chunks/00.txt
-            cat assets/pdf/cv_chunks/01.txt
-            cat assets/pdf/cv_chunks/02a.txt
-            cat assets/pdf/cv_chunks/02b1_0.txt
-            cat assets/pdf/cv_chunks/02b1_1.txt
-            cat assets/pdf/cv_chunks/02b1_2.txt
-            cat assets/pdf/cv_chunks/02b2_0.txt
-            cat assets/pdf/cv_chunks/02b2_1.txt
-            cat assets/pdf/cv_chunks/02b2_2.txt
-            cat assets/pdf/cv_chunks/03.txt
-            cat assets/pdf/cv_chunks/04.txt
-            cat assets/pdf/cv_chunks/05_00.txt
-            cat assets/pdf/cv_chunks/05_01.txt
-            cat assets/pdf/cv_chunks/05_02.txt
-            cat assets/pdf/cv_chunks/05_03.txt
-            cat assets/pdf/cv_chunks/05_04.txt
-            cat assets/pdf/cv_chunks/05_05.txt
-            cat assets/pdf/cv_chunks/05_06.txt
-            cat assets/pdf/cv_chunks/05_07.txt
-            cat assets/pdf/cv_chunks/05_08.txt
-            cat assets/pdf/cv_chunks/05_09.txt
-            cat assets/pdf/cv_chunks/05_10.txt
-            cat assets/pdf/cv_chunks/05_11.txt
-            cat assets/pdf/cv_chunks/06a.txt
-            cat assets/pdf/cv_chunks/06b.txt
-            cat assets/pdf/cv_chunks/07.txt
+            cat assets/pdf/cv_upload/00.b64
+            cat assets/pdf/cv_upload/01.b64
+            cat assets/pdf/cv_upload/02.b64
+            cat assets/pdf/cv_upload/03.b64
+            cat assets/pdf/cv_upload/04.b64
+            cat assets/pdf/cv_upload/05.b64
+            cat assets/pdf/cv_upload/06.b64
           } | tr -d '\r\n' | base64 --decode > assets/pdf/Maha_Sajid_CV.pdf
-          echo "705a8ca83f64ff31bdef0f518332c233834f90b5a847b0eaa50122027fe0601c  assets/pdf/Maha_Sajid_CV.pdf" | sha256sum --check --strict
+          echo "5cc346598f2892d38c73a1537c8c1a14fd56b2c9c33564900e50e9ada7b46a05  assets/pdf/Maha_Sajid_CV.pdf" | sha256sum --check --strict
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
