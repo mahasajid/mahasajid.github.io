@@ -8,7 +8,7 @@ description: Curriculum vitae of Maha Sajid.
 ---
 
 <script>
-  window.location.replace("{{ '/assets/pdf/Maha_Sajid_CV.pdf' | relative_url }}");
+  window.location.replace("{{ '/assets/pdf/Maha_Master_CV.pdf' | relative_url }}");
 </script>
 
-If the PDF does not open automatically, [open my CV here]({{ '/assets/pdf/Maha_Sajid_CV.pdf' | relative_url }}).
+If the PDF does not open automatically, [open my CV here]({{ '/assets/pdf/Maha_Master_CV.pdf' | relative_url }}).
