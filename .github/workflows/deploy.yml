@@ -78,8 +78,6 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip"
-      - name: Build CV PDF 📄
-        run: python3 scripts/build_cv_pdf.py
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
