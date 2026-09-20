@@ -33,13 +33,11 @@ latest_posts:
 
 I am a PhD candidate in Computer Science at **Virginia Tech**, advised by [**Brendan David-John**](https://scholar.google.com/citations?user=YFxRRDUAAAAJ&hl=en) and [**Bo Ji**](https://people.cs.vt.edu/boji/). I conduct research across the [**PrivateEye Lab**](https://bmdj-vt.github.io/) and the [**Synergistic Networking and Augmented Intelligence Lab (SNAIL)**](https://people.cs.vt.edu/boji/group.html). My research sits at the intersection of **Human-Computer Interaction, collaborative mixed reality, security & privacy, and team cognition**.
 
-I study how people build shared awareness, coordinate with collaborators, and respond to security and privacy risks in immersive systems. My work combines controlled human-subjects studies, mixed-methods research, interactive XR system development, and multimodal analysis of gaze, speech, behavior, workload, and performance.
-
-My current work investigates how communication modalities shape **collective situational awareness in asymmetric MR**. I also study how users recognize and respond to **security attacks in remote collaborative MR**, and how **multimodal privacy indicators** can better support XR bystanders.
+I study how people build shared awareness, coordinate with collaborators, and respond to security and privacy risks in immersive systems. My work combines controlled human-subjects studies, mixed-methods research, interactive XR system development, and multimodal analysis of gaze, speech, behavior, workload, and performance. My current work investigates how collaborative Mixed Reality systems can support resilient teamwork by understanding how task-relevant awareness and attention are distributed across collaborators, detecting when those team states become maladaptive, and providing context-sensitive interventions before they result in task failure.
 
 **Research Interests:** Human-Computer Interaction · Extended Reality · Collaborative MR/XR · Security & Privacy · Team Cognition · Situation Awareness
 
-The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu); my personal email is [mahasajid1@gmail.com](mailto:mahasajid1@gmail.com).
+The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu).
 
 <div style="clear: both;"></div>
 
@@ -47,6 +45,7 @@ The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu); my personal 
 
 | Year | Update |
 | --- | --- |
+| **2026** | Awarded the scholarship to attend the **TAPIA 2026** conference in Atlanta, GA.|
 | **2026** | Awarded the **John Lee Pratt Fellowship** for 2026–2027 and serving as a reviewer for IEEE VR. |
 | **2026** | Earned the [**CRA UR2PhD Certified Graduate Mentor** credential](https://verified.sertifier.com/en/verify/81443835666110/). |
 | **2026** | Completed a 48-participant study of communication modality and collective situational awareness in asymmetric MR; manuscript under review at **IEEE VR 2027**. |
