@@ -35,7 +35,7 @@ I am a PhD candidate in Computer Science at **Virginia Tech**, advised by [**Bre
 
 I study how people build shared awareness, coordinate with collaborators, and respond to security and privacy risks in immersive systems. My work combines controlled human-subjects studies, mixed-methods research, interactive XR system development, and multimodal analysis of gaze, speech, behavior, workload, and performance. My current work investigates how collaborative Mixed Reality systems can support resilient teamwork by understanding how task-relevant awareness and attention are distributed across collaborators, detecting when those team states become maladaptive, and providing context-sensitive interventions before they result in task failure.
 
-**Research Interests:** Human-Computer Interaction · Extended Reality · Collaborative MR/XR · Security & Privacy · Team Cognition · Situation Awareness
+**Research Interests:** Human-Computer Interaction · Extended Reality · Collaborative MR/XR · Team Cognition · Situation Awareness
 
 The best way to reach me is at [mahas@vt.edu](mailto:mahas@vt.edu).
 
