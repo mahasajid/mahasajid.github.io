@@ -31,7 +31,7 @@ latest_posts:
 
 <img src="{{ '/assets/img/maha_profile.jpg' | relative_url }}" alt="Maha Sajid" class="maha-profile-wrap img-fluid rounded z-depth-1">
 
-I am a PhD candidate in Computer Science at **Virginia Tech**, advised by [**Brendan David-John**](https://scholar.google.com/citations?user=YFxRRDUAAAAJ&hl=en) and [**Bo Ji**](https://people.cs.vt.edu/boji/). I conduct research across the [**PrivateEye Lab**](https://bmdj-vt.github.io/) and the [**Synergistic Networking and Augmented Intelligence Lab (SNAIL)**](https://people.cs.vt.edu/boji/group.html). My research sits at the intersection of **Human-Computer Interaction, collaborative mixed reality, security & privacy, and team cognition**.
+I am a PhD candidate in Computer Science at **Virginia Tech**, advised by [**Brendan David-John**](https://scholar.google.com/citations?user=YFxRRDUAAAAJ&hl=en) and [**Bo Ji**](https://people.cs.vt.edu/boji/). My research sits at the intersection of **Human-Computer Interaction, collaborative mixed reality, security, and team cognition**.
 
 I study how people build shared awareness, coordinate with collaborators, and respond to security and privacy risks in immersive systems. My work combines controlled human-subjects studies, mixed-methods research, interactive XR system development, and multimodal analysis of gaze, speech, behavior, workload, and performance. My current work investigates how collaborative Mixed Reality systems can support resilient teamwork by understanding how task-relevant awareness and attention are distributed across collaborators, detecting when those team states become maladaptive, and providing context-sensitive interventions before they result in task failure.
 
