@@ -17,4 +17,5 @@ The resulting pipeline achieved **92% accuracy in identifying constructed areas*
 
 **Areas:** Computer Vision · Machine Learning · Remote Sensing · Human-Computer Interaction · GIS · Web Development
 
-[LinkedIn Project Profile](https://www.linkedin.com/in/maha-sajid-303844103)
+**Code:** [GitHub — TaxData](https://github.com/MrWains/TaxData)  
+**Additional Details:** [LinkedIn Projects](https://www.linkedin.com/in/maha-sajid-303844103/details/projects/)
