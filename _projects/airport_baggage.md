@@ -15,4 +15,5 @@ I developed the concept as a research-paper proposal and prototyped a **hybrid b
 
 **Areas:** Blockchain · Database Systems · Security · Systems Design · Aviation Technology
 
-[LinkedIn Project Profile](https://www.linkedin.com/in/maha-sajid-303844103)
+**Code:** [GitHub — Airport Baggage Management](https://github.com/SIMSB-99/bms)  
+**Additional Details:** [LinkedIn Projects](https://www.linkedin.com/in/maha-sajid-303844103/details/projects/)
