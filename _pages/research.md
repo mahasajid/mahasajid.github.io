@@ -11,7 +11,7 @@ My work spans collaborative XR research, human-centered computing, applied machi
 
 ## PhD Research
 
-### Predictive Modeling of Team Attention from Eye Tracking (Ongoing)
+### Gaze behavior of triads in varying task demands (Ongoing)
 
 Developing a technical prototype on **Samsung Galaxy XR** using **Photon Fusion** to connect three players in a **dynamic 360° environment**. The prototype explores varying task-pressure levels through changes in **flying direction**. Additional technical and study details are not yet public.
 
