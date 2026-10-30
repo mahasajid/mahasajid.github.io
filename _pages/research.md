@@ -11,6 +11,12 @@ My work spans collaborative XR research, human-centered computing, applied machi
 
 ## PhD Research
 
+### Networked 360° XR Environment (Ongoing)
+
+Developing a technical prototype on **Samsung Galaxy XR** using **Photon Fusion** to connect three players in a **dynamic 360° environment**. The prototype explores varying task-pressure levels through changes in **flying direction**. Additional technical and study details are not yet public.
+
+**Code:** Private GitHub repository — **available on request**.
+
 ### Collective Situational Awareness in Asymmetric MR
 
 **How does communication modality shape what collaborators notice, understand, and anticipate together?**
@@ -18,6 +24,8 @@ My work spans collaborative XR research, human-centered computing, applied machi
 I led an end-to-end investigation of collective situational awareness in asymmetric mixed reality, designing and implementing a networked HoloLens 2 experiment and refining the protocol through a 12-participant pilot before conducting an IRB-approved, counterbalanced study with **48 participants across 24 dyads**.
 
 The work extends SAGAT-based collective situation-awareness assessment with team-level measures of **information coverage** and **accurate alignment**, alongside correctness and response-alignment measures. I also built multimodal analysis pipelines integrating gaze, speech, SAGAT, workload, and performance data. The study found that **Gaze+Voice improved task performance and shared awareness**, while **Gaze-only produced the strongest spatial gaze convergence**, suggesting that performance, co-attention, and collective awareness capture distinct aspects of collaboration. The manuscript is under review at **IEEE VR 2027**.
+
+**Code:** [CogniLink on GitHub](https://github.com/mahasajid/CogniLink)
 
 ### Security Attacks in Remote Collaborative MR
 
@@ -27,6 +35,9 @@ I designed and executed a mixed-methods security study on remote collaborative M
 
 By triangulating first-person recordings, behavioral observations, questionnaires, and interviews, the study uncovered gaps between users' perceived and actual security behavior. The resulting design recommendations focus on immersive security indicators, interaction transparency, and user training. This work resulted in my **first-author IEEE VR 2025 paper** and was featured in *Computerworld*.
 
+**Code:** [MRattack on GitHub](https://github.com/mahasajid/MRattack)  
+**Presentations:** [IEEE VR 2025 — presentation recap](https://www.linkedin.com/posts/maha-sajid-303844103_ieee-mixedreality-privacy-activity-7305231454211301377-6HFG) · [CCI Symposium 2025 — official presentation listing](https://cyberinitiative.org/events-programs/events-for-2025/cci-symposium-2025/paper-presentations.html)
+
 ### Privacy Indicators for XR Bystanders
 
 **How should XR systems communicate privacy-relevant information when visual cues alone are insufficient?**
@@ -34,6 +45,8 @@ By triangulating first-person recordings, behavioral observations, questionnaire
 I collaborated on an iterative mixed-methods study of privacy indicators for situationally impaired XR bystanders. Four focus groups with 8 participants informed five visual and multimodal concepts, followed by a 7-participant evaluation of usability and contextual usefulness. The results showed limitations of visual-only cues under situational impairment and stronger preferences for multimodal indicators in privacy-sensitive scenarios. This work was published at **IEEE ISMAR Adjunct 2025**.
 
 ## Research Projects
+
+**Selected code:** [Improving Tax Collection Through Satellite Imagery — GitHub](https://github.com/MrWains/TaxData)
 
 <div class="projects">
 {% assign research_projects = site.projects | where: "category", "research" | sort: "importance" %}
@@ -56,6 +69,8 @@ I collaborated on an iterative mixed-methods study of privacy indicators for sit
 </div>
 
 ## Systems & Computer Vision
+
+**Selected code:** [Airport Baggage Management System — GitHub](https://github.com/SIMSB-99/bms)
 
 <div class="projects">
 {% assign systems_projects = site.projects | where: "category", "systems" | sort: "importance" %}
