@@ -15,4 +15,5 @@ Sponsors could view a sponsored child's academic progress and communicate throug
 
 **Areas:** Database Systems · Software Engineering · Web Development · UX/UI Design · Human-Computer Interaction
 
-[LinkedIn Project Profile](https://www.linkedin.com/in/maha-sajid-303844103)
+**Code:** [Hunehar Management System on GitHub](https://github.com/irzumjafri/hms)  
+**Additional Details:** [LinkedIn Projects](https://www.linkedin.com/in/maha-sajid-303844103/details/projects/)
