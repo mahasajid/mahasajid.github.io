@@ -31,7 +31,7 @@ latest_posts:
 
 <img src="{{ '/assets/img/maha_profile.jpg' | relative_url }}" alt="Maha Sajid" class="maha-profile-wrap img-fluid rounded z-depth-1">
 
-I am a Ph.D. candidate in Computer Science at **Virginia Tech**, advised by [**Brendan David-John**](https://scholar.google.com/citations?user=YFxRRDUAAAAJ&hl=en) and [**Bo Ji**](https://people.cs.vt.edu/boji/). I am affiliated with the [**PrivateEye Lab**](https://bmdj-vt.github.io/) and [**SNAIL Lab**](https://people.cs.vt.edu/boji/group.html).
+I am a Ph.D. student in Computer Science at **Virginia Tech**, advised by [**Brendan David-John**](https://scholar.google.com/citations?user=YFxRRDUAAAAJ&hl=en) and [**Bo Ji**](https://people.cs.vt.edu/boji/). I am affiliated with the [**PrivateEye Lab**](https://bmdj-vt.github.io/) and [**SNAIL Lab**](https://people.cs.vt.edu/boji/group.html).
 
 My research examines **human attention and team cognition in collaborative extended reality**: how people allocate attention, develop shared situational awareness, and coordinate under changing task demands. I combine **eye tracking, multimodal behavioral analysis, and controlled human-subject studies** with the design of networked XR prototypes. My current work investigates gaze-based measures and predictive models of individual and team attention, with the longer-term goal of designing immersive systems that better support collaborative decision-making.
 
