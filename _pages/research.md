@@ -11,13 +11,13 @@ My work spans collaborative XR research, human-centered computing, applied machi
 
 ## PhD Research
 
-### Networked 360° XR Environment (Ongoing)
+### Predictive Modeling of Team Attention from Eye Tracking (Ongoing)
 
 Developing a technical prototype on **Samsung Galaxy XR** using **Photon Fusion** to connect three players in a **dynamic 360° environment**. The prototype explores varying task-pressure levels through changes in **flying direction**. Additional technical and study details are not yet public.
 
 **Code:** Private GitHub repository — **available on request**.
 
-### Collective Situational Awareness in Asymmetric MR
+### Gaze and Voice Communication in Collaborative MR (Under Review, IEEE VR 2027)
 
 **How does communication modality shape what collaborators notice, understand, and anticipate together?**
 
@@ -27,7 +27,7 @@ The work extends SAGAT-based collective situation-awareness assessment with team
 
 **Code:** [CogniLink on GitHub](https://github.com/mahasajid/CogniLink)
 
-### Security Attacks in Remote Collaborative MR
+### Security Attacks in Remote Collaborative MR (IEEE VR 2025)
 
 **How do collaborators recognize and respond to attacks in shared immersive environments?**
 
@@ -36,17 +36,20 @@ I designed and executed a mixed-methods security study on remote collaborative M
 By triangulating first-person recordings, behavioral observations, questionnaires, and interviews, the study uncovered gaps between users' perceived and actual security behavior. The resulting design recommendations focus on immersive security indicators, interaction transparency, and user training. This work resulted in my **first-author IEEE VR 2025 paper** and was featured in *Computerworld*.
 
 **Code:** [MRattack on GitHub](https://github.com/mahasajid/MRattack)  
+**Publication:** [IEEE VR 2025 Paper](https://doi.org/10.1109/VR59515.2025.00085) · [Computerworld Feature](https://www.computerworld.com/article/3827231/virginia-tech-researchers-raise-red-flags-about-mixed-reality-security.html)  
 **Presentations:** [IEEE VR 2025 — presentation recap](https://www.linkedin.com/posts/maha-sajid-303844103_ieee-mixedreality-privacy-activity-7305231454211301377-6HFG) · [CCI Symposium 2025 — official presentation listing](https://cyberinitiative.org/events-programs/events-for-2025/cci-symposium-2025/paper-presentations.html)
 
-### Privacy Indicators for XR Bystanders
+### Multimodal Privacy Indicators Under Situational Impairment (IEEE ISMAR Adjunct 2025)
 
 **How should XR systems communicate privacy-relevant information when visual cues alone are insufficient?**
 
 I collaborated on an iterative mixed-methods study of privacy indicators for situationally impaired XR bystanders. Four focus groups with 8 participants informed five visual and multimodal concepts, followed by a 7-participant evaluation of usability and contextual usefulness. The results showed limitations of visual-only cues under situational impairment and stronger preferences for multimodal indicators in privacy-sensitive scenarios. This work was published at **IEEE ISMAR Adjunct 2025**.
 
+**Publication:** [IEEE ISMAR Adjunct 2025 Paper](https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00059) · [NSF Public Access Record](https://par.nsf.gov/biblio/10665113)
+
 ## Research Projects
 
-**Selected code:** [Improving Tax Collection Through Satellite Imagery — GitHub](https://github.com/MrWains/TaxData)
+**Cross-Verification of Revenue Using Remote Sensing Data:** [Code (GitHub)](https://github.com/MrWains/TaxData) · [Technical Report (International Growth Centre)](https://www.theigc.org/sites/default/files/2022/03/Taj-and-Zaffar-Final-report-March-2022.pdf)
 
 <div class="projects">
 {% assign research_projects = site.projects | where: "category", "research" | sort: "importance" %}
@@ -58,6 +61,8 @@ I collaborated on an iterative mixed-methods study of privacy indicators for sit
 </div>
 
 ## Human-Centered Applications
+
+**Hunehar Management System:** [Code (GitHub)](https://github.com/irzumjafri/hms)
 
 <div class="projects">
 {% assign hci_projects = site.projects | where: "category", "human-centered-systems" | sort: "importance" %}
