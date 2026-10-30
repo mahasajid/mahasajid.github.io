@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Improving Tax Collection Through Satellite Imagery
+title: Cross-Verification of Revenue Using Remote Sensing Data
 description: Remote-sensing and GIS decision support for identifying construction activity and supporting property-tax verification in Peshawar, Pakistan.
 importance: 1
 category: research
@@ -18,4 +18,5 @@ The resulting pipeline achieved **92% accuracy in identifying constructed areas*
 **Areas:** Computer Vision · Machine Learning · Remote Sensing · Human-Computer Interaction · GIS · Web Development
 
 **Code:** [GitHub — TaxData](https://github.com/MrWains/TaxData)  
+**Technical Report:** [Cross Verification of Revenue Using Remote Sensing Data — International Growth Centre](https://www.theigc.org/sites/default/files/2022/03/Taj-and-Zaffar-Final-report-March-2022.pdf)  
 **Additional Details:** [LinkedIn Projects](https://www.linkedin.com/in/maha-sajid-303844103/details/projects/)
